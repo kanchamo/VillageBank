@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    @apply relative bg-cover bg-center min-h-screen;
+    background-image: url('./login-background.jpg');
+}
+
+body::before {
+    @apply content-[''] absolute inset-0 bg-black bg-opacity-50;
+}
+
+/* Ensure content is above the overlay */
+#root {
+    @apply relative z-10;
+}
