@@ -3,6 +3,7 @@ import React from 'react'
 import Navbar from './components/Navbar'
 import SubBody from './components/SubBody'
 import About from './components/About'
+import Footer from './components/footer'
 
 
 
@@ -12,6 +13,7 @@ function App() {
       <Navbar/>
       <SubBody/>
       <About/>
+      <Footer/>
     </div>
   )
 }

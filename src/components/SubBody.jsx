@@ -6,9 +6,9 @@ import { SignUpButton } from '@clerk/clerk-react';
 function SubBody() {
   return (
     <div className='text-white '>
-      <div className=' mt-[6px] w-full h-screen mx-auto text-center flex flex-col justify-center'>
-        <p className='text-[#19c509] font-bold p-2 md:text-4xl sm:text-3xl'>GROWING AT YOUR OWN PACE</p>
-        <h1 className='md:text-7xl sm:text-6xl text-4xl font-bold md:py-6'>Building your future</h1>
+      <div className=' mt-[-70px] w-full h-screen mx-auto text-center flex flex-col justify-center'>
+        <p className='text-[#19c509] font-bold p-2 md:text-5xl sm:text-3xl'>GROWING AT YOUR OWN PACE</p>
+        <h1 className='md:text-8xl sm:text-6xl text-4xl font-bold md:py-6'>Building your future</h1>
         <div className='flex justify-center items-center'>
             <p className='md:text-5xl sm:text-4xl text-xl font-bold py-4'>fast, flexible financing for</p>
             <TypingEffect
