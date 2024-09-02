@@ -20,7 +20,11 @@ function SubBody() {
                loop
             />
         </div>
-        <button className='bg-[#1baf0d] w-[150px] hover:bg-[#029a24] rounded-lg font-medium my-6 mx-auto py-3'><SignUpButton/></button>
+        <SignUpButton>
+          <button className='bg-[#0c0c0c] w-[150px] text-[#19c509] hover:bg-[#128a07] hover:text-[#f7f6f6] rounded-lg font-medium my-6 mx-auto py-3'>
+            Get Started Now!
+          </button>
+        </SignUpButton>
       </div>
     </div>
   );
